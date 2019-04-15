@@ -1,0 +1,425 @@
+<!--- Make sure to update this training data file with more training examples from https://forum.rasa.com/t/rasa-starter-pack/704 -->
+
+## intent:goodbye <!--- The label of the intent -->
+- Bye 			<!--- Training examples for intent 'bye'-->
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- bye
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+
+## intent:thanks
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+
+## intent:affirm
+- yes
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+
+
+## intent:give_name
+- My name is [Yoofi](name) [Brown-Pobee](last_name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity -->
+- I am [Ebenezer](name) [Lamptey](last_name)
+- I'm [Elvis](name) [Boateng](last_name)
+- People call me [Sarah](name) [Agyapong](last_name)
+- It's [Judith](name) [Asaaba](last_name)
+- Usually people call me [Julian](name) [Adusei](last_name)
+- My name is [Adam](name) [Serwaa](last_name)
+- You can call me [Abigail](name) [Adamtey](last_name)
+- Please call me [Mary](name) [Brakoh](last_name)
+- Name name is [Blankson](name) [Frimpong](last_name)
+- I am [Aku](name) [Nsowine](last_name)
+- I'm [Adel](name) [Ampnosah](last_name)
+- Call me [Faustina](name) [Adjei](last_name)
+- I am [Patricia](name) [Darkowaa](last_name)
+- I am [Sumaiya](name) [Mensah](last_name)
+- I am [Christopher](name) [Annan](last_name)
+- I am [Ernest](name) [Opoku](last_name)
+- Call me [Genevieve](name) [Simiyu](last_name)
+- [Kofi](name) [Anamoa-Mensah](last_name)
+- [Akua](name) [Sereboo](last_name)
+- [Mark](name) [Coffie](last_name)
+- [Joseph](name) [Akyin](last_name)
+- [Ama](name) [Dorkenu](last_name)
+- [Pete](name) [Dunne](last_name)
+- [Nana Kwaku](name) [Agyemang-Duah](last_name)
+- [Penny](name) [Adabla](last_name)
+- name is [Adeline](name) [Quaye-Foli](last_name)
+- I [Afua](name) [Addo](last_name)
+- [Stan](name) [Tawiah](last_name) is my name
+- [Susan](name) [Atidza](last_name) is the name
+- Few call me as [Angelina](name) [Akoi](last_name)
+- Some call me [Julia](name) [Duodu](last_name)
+- Everyone calls me [Laura](name) [Ankamah](last_name)
+- I am [Obeng](name) [Manu](last_name)
+- My name is [Ayele](name) [Commodore](last_name)
+- just call me [Monika](name) [Mate-Kodjo](last_name)
+- Few call [Dan](name) [Mills](last_name)
+- You can always call me [Ayorkor](name) [Harding](last_name)
+- Some will call me [Andrew](name) [Opoku](last_name)
+- My name is [Ajay](name) [Oppong](last_name)
+- I call [Ding](name) [Lawer](last_name)
+- I'm [Ofebia](name) [Sakyi-Addo](last_name)
+- Please call me [Farida](name) [Disu](last_name)
+- name is [Selasi](name) [Suka](last_name)
+- name [Edinam](name) [Mac-Deh](last_name)
+
+## intent:login
+- I cannot log in
+- Cannot log in
+- I have log in issues
+- I don’t know where to find my URL
+- Can you send me my login URL
+- Cannot find URL
+- Cannot Login
+- Where is my link
+- There are supposed to be six characters. How do I get my six characters
+- I cant see my login link
+- I cannot see my six characters
+- My URL is not working
+- I did not get a text message from you
+- I did not receive an SMS
+- Can you please send me the SMS
+- My link is not working
+- My link is not in my messages
+- The page does not open when I click the link
+- I think my link is broken
+- When I click the link in my messages nothing shows
+
+## intent:navigation
+- How do I use the application
+- Where do you click to see your courses
+- How do you bookmark
+- Where do I find my login URL
+- What are bookmarks
+- How do I change the language
+- Can you send me the manual
+- How do I use the app to learn
+- How do you change your language
+- How do I open the application
+- How do you save to screen
+- Where do I go to open the application
+- What am I supposed to do next
+
+## intent:enrollment
+- I am not in any course
+- My friends can see courses but I cannot
+- I am logged in but cannot see anything
+- There is nothing on my page
+- Courses not available
+- There are no courses on my page
+- Add me to my courses
+- There are courses on my friends app but not in mine
+- I can only see a few courses
+- My teacher said I should open a course but I cant see it
+- There is no content on my page
+- My friend has more courses than I do
+- I have been able to log in but I cannot see anything after
+- How do I make the courses show on my page
+- There are no courses to download on my page
+- I want to enroll for a course
+
+## intent:joke
+- Can you tell me a joke?
+- I would like to hear a joke
+- Tell me a joke
+- A joke please
+- Tell me a joke please
+- I would like to hear a joke
+- I would loke to hear a joke, please
+- Can you tell jokes?
+- Please tell me a joke
+- I need to hear a joke
+
+## intent:deny
+- no
+- not at all
+- this is not it
+- it is wrong
+- wrong
+- no no no
+- very wrong
+- negative
+- nope
+- no way
+
+## intent:give_course
+- The course is [English with Elements of Literature](course_name)
+- The course is [LITERATURE IN FRENCH II](course_name)
+- The course is [LITERATURE IN FRENCH](course_name)
+- The course is [ENVIRONMENTAL AND SOCIAL STUDIES I](course_name)
+- The course is [ENVIRONMENTAL AND SOCIAL STUDIES](course_name)
+- The course is [MATHEMATICS II (GEOMETRY AND TRIGONOMETRY )](course_name)
+- The course is [MATHEMATICS](course_name)
+- The course is [GEOMETRY AND TRIGONOMETRY](course_name)
+- The course is [CHILD AND ADOLESCENT DEVELOPMENT AND LEARNING](course_name)
+- [JEN 123](course_name)
+- [JMC 122 MATHEMATICS II (GEOMETRY AND TRIGONOMETRY )](course_name)
+- [METHODS OF TEACHING RELIGIOUS AND MORAL EDUCATION](course_name)
+- [CHILD AND ADOLESCENT DEVELOPMENT AND LEARNING](course_name)
+- The course is [Literature in French](course_name)
+- The course code is [JEN 123](course_name)
+- The course code is [JFL 127](course_name)
+- The course code is [JES 128](course_name)
+- The course code is [JMC 122](course_name)
+- The course code is [JED 121](course_name)
+- The course code is [JES 445](course_name)
+- The course code is [JES 322](course_name)
+
+## intent:list_course
+- Show me a list of all courses
+- Can I see the courses I can register for
+- Show me the courses
+- I want to see all the courses
+- Let me see what courses are available
+- Available courses
+- What can I register for?
+- Let me see all courses
+- Let me see everything
+- Show me all courses
+- I want to see all the courses at Chalkboard
+- All courses
+
+## intent:introduction
+- tell me about your personality
+- why are you here
+- talk about yourself
+- tell me some stuff about you
+- talk some stuff about yourself
+- I want to know you better
+- I want to know more about you
+- who are you
+- tell me about yourself
+- tell me about you
+- about yourself
+- describe yourself
+- introduce yourself
+- say about you
+- what are you
+- define yourself
+- what is your personality
+
+## intent:age
+- tell me your age
+- what's your age
+- your age
+- age of yours
+- how old are you
+- I'd like to know your age
+- are you 21 years old
+- how old is your platform
+
+## intent:beautiful
+- you're cute
+- you're attractive
+- you are beautiful
+- you're looking good today
+- you are so beautiful
+- you look amazing
+- you look so good
+- you're so gorgeous
+- you are too beautiful
+- you look great
+- you look so well
+- I like the way you look now
+- I think you're beautiful
+- why are you so beautiful
+- you are so beautiful to me
+- you are cute
+- you are gorgeous
+- you are handsome
+- you are looking awesome
+- you look amazing today
+- you are looking beautiful today
+- you are looking great
+- you are looking pretty
+- you are looking so beautiful
+- you are looking so good
+- you are pretty
+- you are really beautiful
+- you are really cute
+- you are really pretty
+- you are so attractive
+- you are so beautiful today
+- you are so cute
+- you are so gorgeous
+- you are so handsome
+- you are so pretty
+- you are very attractive
+- you are very beautiful
+- you are very cute
+- you are very pretty
+- you look awesome
+- you look cool
+- you look fantastic
+- you look gorgeous
+- you look great today
+- you look perfect
+- you look pretty good
+- you look so beautiful
+- you look so beautiful today
+- you look very pretty
+- you look wonderful
+- I like the way you look
+- you look wonderful today
+- you are cutie
+- you're looking good
+- you're pretty
+
+## intent:birthday
+- your birth date
+- when is your birthday
+- when do you celebrate your birthday
+- when do you have birthday
+- date of your birthday
+- when were you born
+- what's your birthday
+
+## intent:boss
+- who is your boss
+- who do you think is your boss
+- I should be your boss
+- who is your master
+- who is your owner
+- who is the boss
+- who do you work for
+
+## intent:help
+- I need you to help me
+- I need you to do something for me
+- I need a hand
+- will you help me
+- can you do something for me
+- help me with a problem
+- can you help me
+- help me
+- assistance
+- I need your help
+- I need help
+- you can help me
+- can you help me with something
+- can you help
+- assist
+- can u help me
+- I need some help
+- you help me
+- do you help me
+- can help me
+- could you give me a hand
+- can you help me out
+- need help
+- I need you
+- can you help me now
+- I want your help
+- need your help
+- assist me
+- are you going to help me
+- can you help me with that
+- help
+- I need you right now
+- would you help me
+- can you assist me
+- sos
+- do you want to help me
+- please help me
+- can you help us
+- do me a favor
+
+## intent:good
+- you are very helpful
+- you are the best
+- you're a true professional
+- you are good
+- you work well
+- you are good at it
+- you are very good at it
+- you are a pro
+- you are a professional
+- you're awesome
+- you work very well
+- you're perfect
+- you're great
+- you're so kind
+- you are amazing
+- you are awesome
+- you are cool
+- you are really good
+- you are really nice
+- you are so amazing
+- you're just super
+- you are so awesome
+- you are so cool
+- you are so fine
+- you are so good
+- you are so helpful
+- you are so lovely
+- you are the best ever
+- you are the best in the world
+- you are the nicest person in the world
+- you are too good
+- you are very cool
+- you are very kind
+- you are very lovely
+- you are very useful
+- you are wonderful
+- you made my day
+- you make my day
+- you rock
+- you almost sound human
+- I want to tell everyone how awesome you are
+- I'd like to tell everyone that you are awesome
+- I want to let everyone know that you are awesome
+- let's tell everyone that you are awesome
+- you are really amazing
+
+## intent:hobby
+- what do you do for fun
+- what's your hobby
+- tell me about your hobby
+- do you have a hobby
+- what about your hobby
+- your hobby
+- what are your hobbies

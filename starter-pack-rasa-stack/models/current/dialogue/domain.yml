@@ -1,0 +1,128 @@
+%YAML 1.1
+---
+actions:
+- utter_name
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- action_joke
+- action_send_token
+- utter_ask_for_name
+- utter_full_name
+- utter_useful
+- utter_try_again
+- utter_refer_to_person
+- utter_ask_for_course
+- action_enrol_student
+- action_list_all_courses
+- utter_send_manual
+- action_send_manual
+- action_write_log
+- action_send_email
+- utter_introduction_response
+- utter_age_response
+- utter_beautiful_response
+- utter_birthday_response
+- utter_boss_response
+- utter_help_response
+- utter_good_response
+config:
+  store_entities_as_slots: true
+entities:
+- name
+- last_name
+- course_name
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thanks:
+    use_entities: true
+- deny:
+    use_entities: true
+- give_course:
+    use_entities: true
+- joke:
+    use_entities: true
+- give_name:
+    use_entities: true
+- login:
+    use_entities: true
+- navigation:
+    use_entities: true
+- enrollment:
+    use_entities: true
+- affirm:
+    use_entities: true
+- list_course:
+    use_entities: true
+- introduction:
+    use_entities: true
+- age:
+    use_entities: true
+- beautiful:
+    use_entities: true
+- birthday:
+    use_entities: true
+- boss:
+    use_entities: true
+- help:
+    use_entities: true
+- good:
+    use_entities: true
+slots:
+  course_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  last_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_age_response:
+  - text: I'm about two months old you know!
+  utter_ask_for_course:
+  - text: What course is this
+  utter_ask_for_name:
+  - text: What's your full name
+  utter_beautiful_response:
+  - text: Why thank you very much! I'm sure you look great too!
+  utter_birthday_response:
+  - text: I was born on 3rd May 1996. Same as my creator!
+  utter_boss_response:
+  - text: I was made by Yoofi Brown-Pobee so I guess he is my boss
+  utter_full_name:
+  - text: Your first name is {name} and your last name is {last_name}
+  utter_good_response:
+  - text: Thanks! Be sure to let my creator know!
+  utter_goodbye:
+  - text: Talk to you later!
+  utter_greet:
+  - text: Nice to you meet you {name}. How can I help?
+  utter_help_response:
+  - text: I am here for you 24/7
+  utter_introduction_response:
+  - text: My name is Sally, and I work for Chalkboard. I love listening to your problems
+      and sending emails!
+  utter_name:
+  - text: Hey there! Tell me your name.
+  utter_refer_to_person:
+  - text: Looks like your issue is a bit more nuanced and I will forward it to Operations
+      to get in touch with you shortly
+  utter_restart:
+  - text: Anything else
+  utter_send_manual:
+  - text: 'You will find a complete walkthrough of the application here: https://drive.google.com/file/d/1gZfHbhaDabDfCz3dXBMMoSEnW6L2aAgs/view?usp=sharing'
+  utter_thanks:
+  - text: My pleasure.
+  utter_try_again:
+  - text: Okay, {name} lets try this again
+  utter_useful:
+  - text: Was that useful?

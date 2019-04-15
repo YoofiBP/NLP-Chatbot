@@ -1,0 +1,2311 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Yoofi",
+            "entity": "name"
+          },
+          {
+            "start": 17,
+            "end": 28,
+            "value": "Brown-Pobee",
+            "entity": "last_name"
+          }
+        ],
+        "text": "My name is Yoofi Brown-Pobee"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Ebenezer",
+            "entity": "name"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Lamptey",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Ebenezer Lamptey"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Elvis",
+            "entity": "name"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Boateng",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I'm Elvis Boateng"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Sarah",
+            "entity": "name"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Agyapong",
+            "entity": "last_name"
+          }
+        ],
+        "text": "People call me Sarah Agyapong"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Judith",
+            "entity": "name"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Asaaba",
+            "entity": "last_name"
+          }
+        ],
+        "text": "It's Judith Asaaba"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Julian",
+            "entity": "name"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Adusei",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Usually people call me Julian Adusei"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Adam",
+            "entity": "name"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Serwaa",
+            "entity": "last_name"
+          }
+        ],
+        "text": "My name is Adam Serwaa"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Abigail",
+            "entity": "name"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Adamtey",
+            "entity": "last_name"
+          }
+        ],
+        "text": "You can call me Abigail Adamtey"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Mary",
+            "entity": "name"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Brakoh",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Please call me Mary Brakoh"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Blankson",
+            "entity": "name"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Frimpong",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Name name is Blankson Frimpong"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Aku",
+            "entity": "name"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Nsowine",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Aku Nsowine"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Adel",
+            "entity": "name"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Ampnosah",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I'm Adel Ampnosah"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Faustina",
+            "entity": "name"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "Adjei",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Call me Faustina Adjei"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Patricia",
+            "entity": "name"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Darkowaa",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Patricia Darkowaa"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Sumaiya",
+            "entity": "name"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Mensah",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Sumaiya Mensah"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "Christopher",
+            "entity": "name"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "Annan",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Christopher Annan"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Ernest",
+            "entity": "name"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Opoku",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Ernest Opoku"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Genevieve",
+            "entity": "name"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Simiyu",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Call me Genevieve Simiyu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Kofi",
+            "entity": "name"
+          },
+          {
+            "start": 5,
+            "end": 18,
+            "value": "Anamoa-Mensah",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Kofi Anamoa-Mensah"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Akua",
+            "entity": "name"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Sereboo",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Akua Sereboo"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mark",
+            "entity": "name"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Coffie",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Mark Coffie"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Joseph",
+            "entity": "name"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Akyin",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Joseph Akyin"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Ama",
+            "entity": "name"
+          },
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Dorkenu",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Ama Dorkenu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Pete",
+            "entity": "name"
+          },
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Dunne",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Pete Dunne"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Nana Kwaku",
+            "entity": "name"
+          },
+          {
+            "start": 11,
+            "end": 24,
+            "value": "Agyemang-Duah",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Nana Kwaku Agyemang-Duah"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Penny",
+            "entity": "name"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Adabla",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Penny Adabla"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Adeline",
+            "entity": "name"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "Quaye-Foli",
+            "entity": "last_name"
+          }
+        ],
+        "text": "name is Adeline Quaye-Foli"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "Afua",
+            "entity": "name"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Addo",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I Afua Addo"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Stan",
+            "entity": "name"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Tawiah",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Stan Tawiah is my name"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Susan",
+            "entity": "name"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Atidza",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Susan Atidza is the name"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Angelina",
+            "entity": "name"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "Akoi",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Few call me as Angelina Akoi"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Julia",
+            "entity": "name"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "Duodu",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Some call me Julia Duodu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Laura",
+            "entity": "name"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Ankamah",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Everyone calls me Laura Ankamah"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Obeng",
+            "entity": "name"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Manu",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I am Obeng Manu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Ayele",
+            "entity": "name"
+          },
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Commodore",
+            "entity": "last_name"
+          }
+        ],
+        "text": "My name is Ayele Commodore"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Monika",
+            "entity": "name"
+          },
+          {
+            "start": 20,
+            "end": 30,
+            "value": "Mate-Kodjo",
+            "entity": "last_name"
+          }
+        ],
+        "text": "just call me Monika Mate-Kodjo"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "Dan",
+            "entity": "name"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Mills",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Few call Dan Mills"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Ayorkor",
+            "entity": "name"
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Harding",
+            "entity": "last_name"
+          }
+        ],
+        "text": "You can always call me Ayorkor Harding"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Andrew",
+            "entity": "name"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Opoku",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Some will call me Andrew Opoku"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Ajay",
+            "entity": "name"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Oppong",
+            "entity": "last_name"
+          }
+        ],
+        "text": "My name is Ajay Oppong"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Ding",
+            "entity": "name"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Lawer",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I call Ding Lawer"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Ofebia",
+            "entity": "name"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Sakyi-Addo",
+            "entity": "last_name"
+          }
+        ],
+        "text": "I'm Ofebia Sakyi-Addo"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Farida",
+            "entity": "name"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Disu",
+            "entity": "last_name"
+          }
+        ],
+        "text": "Please call me Farida Disu"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Selasi",
+            "entity": "name"
+          },
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Suka",
+            "entity": "last_name"
+          }
+        ],
+        "text": "name is Selasi Suka"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Edinam",
+            "entity": "name"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Mac-Deh",
+            "entity": "last_name"
+          }
+        ],
+        "text": "name Edinam Mac-Deh"
+      },
+      {
+        "intent": "login",
+        "text": "I cannot log in"
+      },
+      {
+        "intent": "login",
+        "text": "Cannot log in"
+      },
+      {
+        "intent": "login",
+        "text": "I have log in issues"
+      },
+      {
+        "intent": "login",
+        "text": "I don’t know where to find my URL"
+      },
+      {
+        "intent": "login",
+        "text": "Can you send me my login URL"
+      },
+      {
+        "intent": "login",
+        "text": "Cannot find URL"
+      },
+      {
+        "intent": "login",
+        "text": "Cannot Login"
+      },
+      {
+        "intent": "login",
+        "text": "Where is my link"
+      },
+      {
+        "intent": "login",
+        "text": "There are supposed to be six characters. How do I get my six characters"
+      },
+      {
+        "intent": "login",
+        "text": "I cant see my login link"
+      },
+      {
+        "intent": "login",
+        "text": "I cannot see my six characters"
+      },
+      {
+        "intent": "login",
+        "text": "My URL is not working"
+      },
+      {
+        "intent": "login",
+        "text": "I did not get a text message from you"
+      },
+      {
+        "intent": "login",
+        "text": "I did not receive an SMS"
+      },
+      {
+        "intent": "login",
+        "text": "Can you please send me the SMS"
+      },
+      {
+        "intent": "login",
+        "text": "My link is not working"
+      },
+      {
+        "intent": "login",
+        "text": "My link is not in my messages"
+      },
+      {
+        "intent": "login",
+        "text": "The page does not open when I click the link"
+      },
+      {
+        "intent": "login",
+        "text": "I think my link is broken"
+      },
+      {
+        "intent": "login",
+        "text": "When I click the link in my messages nothing shows"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do I use the application"
+      },
+      {
+        "intent": "navigation",
+        "text": "Where do you click to see your courses"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do you bookmark"
+      },
+      {
+        "intent": "navigation",
+        "text": "Where do I find my login URL"
+      },
+      {
+        "intent": "navigation",
+        "text": "What are bookmarks"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do I change the language"
+      },
+      {
+        "intent": "navigation",
+        "text": "Can you send me the manual"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do I use the app to learn"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do you change your language"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do I open the application"
+      },
+      {
+        "intent": "navigation",
+        "text": "How do you save to screen"
+      },
+      {
+        "intent": "navigation",
+        "text": "Where do I go to open the application"
+      },
+      {
+        "intent": "navigation",
+        "text": "What am I supposed to do next"
+      },
+      {
+        "intent": "enrollment",
+        "text": "I am not in any course"
+      },
+      {
+        "intent": "enrollment",
+        "text": "My friends can see courses but I cannot"
+      },
+      {
+        "intent": "enrollment",
+        "text": "I am logged in but cannot see anything"
+      },
+      {
+        "intent": "enrollment",
+        "text": "There is nothing on my page"
+      },
+      {
+        "intent": "enrollment",
+        "text": "Courses not available"
+      },
+      {
+        "intent": "enrollment",
+        "text": "There are no courses on my page"
+      },
+      {
+        "intent": "enrollment",
+        "text": "Add me to my courses"
+      },
+      {
+        "intent": "enrollment",
+        "text": "There are courses on my friends app but not in mine"
+      },
+      {
+        "intent": "enrollment",
+        "text": "I can only see a few courses"
+      },
+      {
+        "intent": "enrollment",
+        "text": "My teacher said I should open a course but I cant see it"
+      },
+      {
+        "intent": "enrollment",
+        "text": "There is no content on my page"
+      },
+      {
+        "intent": "enrollment",
+        "text": "My friend has more courses than I do"
+      },
+      {
+        "intent": "enrollment",
+        "text": "I have been able to log in but I cannot see anything after"
+      },
+      {
+        "intent": "enrollment",
+        "text": "How do I make the courses show on my page"
+      },
+      {
+        "intent": "enrollment",
+        "text": "There are no courses to download on my page"
+      },
+      {
+        "intent": "enrollment",
+        "text": "I want to enroll for a course"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you tell me a joke?"
+      },
+      {
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Tell me a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "A joke please"
+      },
+      {
+        "intent": "joke",
+        "text": "Tell me a joke please"
+      },
+      {
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "I would loke to hear a joke, please"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you tell jokes?"
+      },
+      {
+        "intent": "joke",
+        "text": "Please tell me a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "I need to hear a joke"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "not at all"
+      },
+      {
+        "intent": "deny",
+        "text": "this is not it"
+      },
+      {
+        "intent": "deny",
+        "text": "it is wrong"
+      },
+      {
+        "intent": "deny",
+        "text": "wrong"
+      },
+      {
+        "intent": "deny",
+        "text": "no no no"
+      },
+      {
+        "intent": "deny",
+        "text": "very wrong"
+      },
+      {
+        "intent": "deny",
+        "text": "negative"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 49,
+            "value": "English with Elements of Literature",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is English with Elements of Literature"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 37,
+            "value": "LITERATURE IN FRENCH II",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is LITERATURE IN FRENCH II"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "LITERATURE IN FRENCH",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is LITERATURE IN FRENCH"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 48,
+            "value": "ENVIRONMENTAL AND SOCIAL STUDIES I",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is ENVIRONMENTAL AND SOCIAL STUDIES I"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 46,
+            "value": "ENVIRONMENTAL AND SOCIAL STUDIES",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is ENVIRONMENTAL AND SOCIAL STUDIES"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 57,
+            "value": "MATHEMATICS II (GEOMETRY AND TRIGONOMETRY )",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is MATHEMATICS II (GEOMETRY AND TRIGONOMETRY )"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "MATHEMATICS",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is MATHEMATICS"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 39,
+            "value": "GEOMETRY AND TRIGONOMETRY",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is GEOMETRY AND TRIGONOMETRY"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 59,
+            "value": "CHILD AND ADOLESCENT DEVELOPMENT AND LEARNING",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is CHILD AND ADOLESCENT DEVELOPMENT AND LEARNING"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "JEN 123",
+            "entity": "course_name"
+          }
+        ],
+        "text": "JEN 123"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "JMC 122 MATHEMATICS II (GEOMETRY AND TRIGONOMETRY )",
+            "entity": "course_name"
+          }
+        ],
+        "text": "JMC 122 MATHEMATICS II (GEOMETRY AND TRIGONOMETRY )"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "METHODS OF TEACHING RELIGIOUS AND MORAL EDUCATION",
+            "entity": "course_name"
+          }
+        ],
+        "text": "METHODS OF TEACHING RELIGIOUS AND MORAL EDUCATION"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "CHILD AND ADOLESCENT DEVELOPMENT AND LEARNING",
+            "entity": "course_name"
+          }
+        ],
+        "text": "CHILD AND ADOLESCENT DEVELOPMENT AND LEARNING"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "Literature in French",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course is Literature in French"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JEN 123",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JEN 123"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JFL 127",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JFL 127"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JES 128",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JES 128"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JMC 122",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JMC 122"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JED 121",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JED 121"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JES 445",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JES 445"
+      },
+      {
+        "intent": "give_course",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "JES 322",
+            "entity": "course_name"
+          }
+        ],
+        "text": "The course code is JES 322"
+      },
+      {
+        "intent": "list_course",
+        "text": "Show me a list of all courses"
+      },
+      {
+        "intent": "list_course",
+        "text": "Can I see the courses I can register for"
+      },
+      {
+        "intent": "list_course",
+        "text": "Show me the courses"
+      },
+      {
+        "intent": "list_course",
+        "text": "I want to see all the courses"
+      },
+      {
+        "intent": "list_course",
+        "text": "Let me see what courses are available"
+      },
+      {
+        "intent": "list_course",
+        "text": "Available courses"
+      },
+      {
+        "intent": "list_course",
+        "text": "What can I register for?"
+      },
+      {
+        "intent": "list_course",
+        "text": "Let me see all courses"
+      },
+      {
+        "intent": "list_course",
+        "text": "Let me see everything"
+      },
+      {
+        "intent": "list_course",
+        "text": "Show me all courses"
+      },
+      {
+        "intent": "list_course",
+        "text": "I want to see all the courses at Chalkboard"
+      },
+      {
+        "intent": "list_course",
+        "text": "All courses"
+      },
+      {
+        "intent": "introduction",
+        "text": "tell me about your personality"
+      },
+      {
+        "intent": "introduction",
+        "text": "why are you here"
+      },
+      {
+        "intent": "introduction",
+        "text": "talk about yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "tell me some stuff about you"
+      },
+      {
+        "intent": "introduction",
+        "text": "talk some stuff about yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "I want to know you better"
+      },
+      {
+        "intent": "introduction",
+        "text": "I want to know more about you"
+      },
+      {
+        "intent": "introduction",
+        "text": "who are you"
+      },
+      {
+        "intent": "introduction",
+        "text": "tell me about yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "tell me about you"
+      },
+      {
+        "intent": "introduction",
+        "text": "about yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "describe yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "introduce yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "say about you"
+      },
+      {
+        "intent": "introduction",
+        "text": "what are you"
+      },
+      {
+        "intent": "introduction",
+        "text": "define yourself"
+      },
+      {
+        "intent": "introduction",
+        "text": "what is your personality"
+      },
+      {
+        "intent": "age",
+        "text": "tell me your age"
+      },
+      {
+        "intent": "age",
+        "text": "what's your age"
+      },
+      {
+        "intent": "age",
+        "text": "your age"
+      },
+      {
+        "intent": "age",
+        "text": "age of yours"
+      },
+      {
+        "intent": "age",
+        "text": "how old are you"
+      },
+      {
+        "intent": "age",
+        "text": "I'd like to know your age"
+      },
+      {
+        "intent": "age",
+        "text": "are you 21 years old"
+      },
+      {
+        "intent": "age",
+        "text": "how old is your platform"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you're cute"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you're attractive"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you're looking good today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look amazing"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look so good"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you're so gorgeous"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are too beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look great"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look so well"
+      },
+      {
+        "intent": "beautiful",
+        "text": "I like the way you look now"
+      },
+      {
+        "intent": "beautiful",
+        "text": "I think you're beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "why are you so beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so beautiful to me"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are cute"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are gorgeous"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are handsome"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are looking awesome"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look amazing today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are looking beautiful today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are looking great"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are looking pretty"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are looking so beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are looking so good"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are pretty"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are really beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are really cute"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are really pretty"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so attractive"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so beautiful today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so cute"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so gorgeous"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so handsome"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are so pretty"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are very attractive"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are very beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are very cute"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are very pretty"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look awesome"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look cool"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look fantastic"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look gorgeous"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look great today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look perfect"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look pretty good"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look so beautiful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look so beautiful today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look very pretty"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look wonderful"
+      },
+      {
+        "intent": "beautiful",
+        "text": "I like the way you look"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you look wonderful today"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you are cutie"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you're looking good"
+      },
+      {
+        "intent": "beautiful",
+        "text": "you're pretty"
+      },
+      {
+        "intent": "birthday",
+        "text": "your birth date"
+      },
+      {
+        "intent": "birthday",
+        "text": "when is your birthday"
+      },
+      {
+        "intent": "birthday",
+        "text": "when do you celebrate your birthday"
+      },
+      {
+        "intent": "birthday",
+        "text": "when do you have birthday"
+      },
+      {
+        "intent": "birthday",
+        "text": "date of your birthday"
+      },
+      {
+        "intent": "birthday",
+        "text": "when were you born"
+      },
+      {
+        "intent": "birthday",
+        "text": "what's your birthday"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "who do you think is your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "I should be your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your master"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your owner"
+      },
+      {
+        "intent": "boss",
+        "text": "who is the boss"
+      },
+      {
+        "intent": "boss",
+        "text": "who do you work for"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "I need a hand"
+      },
+      {
+        "intent": "help",
+        "text": "will you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "help me with a problem"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "help",
+        "text": "help me"
+      },
+      {
+        "intent": "help",
+        "text": "assistance"
+      },
+      {
+        "intent": "help",
+        "text": "I need your help"
+      },
+      {
+        "intent": "help",
+        "text": "I need help"
+      },
+      {
+        "intent": "help",
+        "text": "you can help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with something"
+      },
+      {
+        "intent": "help",
+        "text": "can you help"
+      },
+      {
+        "intent": "help",
+        "text": "assist"
+      },
+      {
+        "intent": "help",
+        "text": "can u help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need some help"
+      },
+      {
+        "intent": "help",
+        "text": "you help me"
+      },
+      {
+        "intent": "help",
+        "text": "do you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can help me"
+      },
+      {
+        "intent": "help",
+        "text": "could you give me a hand"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "help",
+        "text": "need help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me now"
+      },
+      {
+        "intent": "help",
+        "text": "I want your help"
+      },
+      {
+        "intent": "help",
+        "text": "need your help"
+      },
+      {
+        "intent": "help",
+        "text": "assist me"
+      },
+      {
+        "intent": "help",
+        "text": "are you going to help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with that"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you right now"
+      },
+      {
+        "intent": "help",
+        "text": "would you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "help",
+        "text": "sos"
+      },
+      {
+        "intent": "help",
+        "text": "do you want to help me"
+      },
+      {
+        "intent": "help",
+        "text": "please help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help us"
+      },
+      {
+        "intent": "help",
+        "text": "do me a favor"
+      },
+      {
+        "intent": "good",
+        "text": "you are very helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best"
+      },
+      {
+        "intent": "good",
+        "text": "you're a true professional"
+      },
+      {
+        "intent": "good",
+        "text": "you are good"
+      },
+      {
+        "intent": "good",
+        "text": "you work well"
+      },
+      {
+        "intent": "good",
+        "text": "you are good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are very good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are a pro"
+      },
+      {
+        "intent": "good",
+        "text": "you are a professional"
+      },
+      {
+        "intent": "good",
+        "text": "you're awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you work very well"
+      },
+      {
+        "intent": "good",
+        "text": "you're perfect"
+      },
+      {
+        "intent": "good",
+        "text": "you're great"
+      },
+      {
+        "intent": "good",
+        "text": "you're so kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are really good"
+      },
+      {
+        "intent": "good",
+        "text": "you are really nice"
+      },
+      {
+        "intent": "good",
+        "text": "you are so amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you're just super"
+      },
+      {
+        "intent": "good",
+        "text": "you are so awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are so cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are so fine"
+      },
+      {
+        "intent": "good",
+        "text": "you are so good"
+      },
+      {
+        "intent": "good",
+        "text": "you are so helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are so lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best ever"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are the nicest person in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are too good"
+      },
+      {
+        "intent": "good",
+        "text": "you are very cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are very kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are very lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are very useful"
+      },
+      {
+        "intent": "good",
+        "text": "you are wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "you made my day"
+      },
+      {
+        "intent": "good",
+        "text": "you make my day"
+      },
+      {
+        "intent": "good",
+        "text": "you rock"
+      },
+      {
+        "intent": "good",
+        "text": "you almost sound human"
+      },
+      {
+        "intent": "good",
+        "text": "I want to tell everyone how awesome you are"
+      },
+      {
+        "intent": "good",
+        "text": "I'd like to tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "I want to let everyone know that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "let's tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are really amazing"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

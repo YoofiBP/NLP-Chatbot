@@ -1,0 +1,76 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "course_name",
+        "last_name",
+        "name"
+      ]
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_enrol_student": {
+      "slots": []
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "utter_beautiful_response": {
+      "slots": []
+    },
+    "action_list_all_courses": {
+      "slots": []
+    },
+    "utter_full_name": {
+      "slots": []
+    },
+    "action_send_email": {
+      "slots": []
+    },
+    "utter_good_response": {
+      "slots": []
+    },
+    "utter_birthday_response": {
+      "slots": []
+    },
+    "utter_boss_response": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "utter_help_response": {
+      "slots": []
+    },
+    "utter_introduction_response": {
+      "slots": []
+    },
+    "action_send_manual": {
+      "slots": []
+    },
+    "action_send_token": {
+      "slots": []
+    },
+    "utter_age_response": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190415-032114",
+  "rasa_core": "0.13.2",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.3"
+}
