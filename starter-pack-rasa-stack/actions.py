@@ -33,7 +33,7 @@ class ActionSendToken(Action):
         return "action_send_token"
 
     def run(self, dispatcher, tracker, domain):
-        mydb = mysql.connector.connect(host="localhost",user="root",passwd="",database="capstone")
+        mydb = mysql.connector.connect(host="35.166.18.143",user="emmanuel.annan",passwd="emmanuel.annan",database="webtech_emmanuel_annan")
         mycursor = mydb.cursor()
         f_name = tracker.get_slot('name')
         l_name = tracker.get_slot('last_name')
@@ -56,7 +56,7 @@ class ActionEnrolStudent(Action):
         return "action_enrol_student"
 
     def run(self, dispatcher, tracker, domain):
-        mydb = mysql.connector.connect(host="localhost",user="root",passwd="",database="capstone")
+        mydb = mysql.connector.connect(host="35.166.18.143",user="emmanuel.annan",passwd="emmanuel.annan",database="webtech_emmanuel_annan")
         mycursor = mydb.cursor()
         course_name = tracker.get_slot('course_name')
         f_name = tracker.get_slot('name')
@@ -98,7 +98,7 @@ class ActionListAllCourses(Action):
         return "action_list_all_courses"
 
     def run(self, dispatcher, tracker, domain):
-        mydb = mysql.connector.connect(host="localhost",user="root",passwd="",database="capstone")
+        mydb = mysql.connector.connect(host="35.166.18.143",user="emmanuel.annan",passwd="emmanuel.annan",database="webtech_emmanuel_annan")
         mycursor = mydb.cursor()
         sql = "SELECT course_title FROM courses WHERE course_enabled = 1"
         mycursor.execute(sql)

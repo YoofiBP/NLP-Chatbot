@@ -247,3 +247,24 @@ Rasa process starting
 Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
 Rasa process starting
 Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is dennis and your last name is owusu
+Failed to run custom action 'action_list_all_courses'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_list_all_courses'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Talk to you later!
+Sending message: My pleasure.
+Sending message: I'm about two months old you know!
+Sending message: I was made by Yoofi Brown-Pobee so I guess he is my boss
+Sending message: I am here for you 24/7
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: Talk to you later!
