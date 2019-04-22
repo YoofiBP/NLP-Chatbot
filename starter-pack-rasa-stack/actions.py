@@ -165,3 +165,33 @@ class ActionWriteLog(Action):
         ##latest bot utterance via: tracker.lastest_bot_utterance
         text_file.write(tracker.latest_message['text']+'\n')
         text_file.close()
+"""
+class ActionSendToken(Action):
+	def name(self):
+		return "action_send_token"
+
+	def run(self, dispatcher, tracker, domain):
+		mydb = mysql.connector.connect(host="35.166.18.143",user="emmanuel.annan",passwd="emmanuel.annan",database="webtech_emmanuel_annan")
+        mycursor = mydb.cursor()
+        f_name = tracker.get_slot('name')
+        l_name = tracker.get_slot('last_name')
+        sql = "SELECT * FROM students WHERE first_name = %s AND last_name = %s"
+        adr = (f_name,l_name)
+        mycursor.execute(sql,adr)
+	myresult = mycursor.fetchall()
+		if len(myresult) == 0:
+		    student = "Sorry " + f_name + " " + l_name +" you are not in our system"
+		else:
+			account_sid = "AC76cd680bb5124eda66ee5bbb80303c65"
+			auth_token = "401bafdcb494987ec8e83b44ae622f7d"
+			client = Client(account_sid, auth_token)
+
+			message = client.messages \
+					.create(
+					     body="Your login token is: " + myresult[0][4]] + "\nKeep the token safe!",
+					     from_='+13475234873',
+					     to=myresult[0][3]
+					 )
+			student = "Your login URL has been sent to your phone number. Check and let me know if this was helpful"
+			dispatcher.utter_message(student)
+			return []"""
