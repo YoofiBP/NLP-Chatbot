@@ -1,6 +1,6 @@
 ﻿# Chatbot for Chalkboard Education by Yoofi Brown-Pobee
 
-##Purpose of the Chatbot
+## Purpose of the Chatbot
 I work for Chalkboard Education and we make learning materials accessiblle via SMS, USSD and the internet. With the internet we provide an online that allows schools to disseminate their digitised content to their students efficiently at low cost. Sometimes students have problems with their accounts (they have forgotten their login tokens or do not know how to navigate the platform) and personnel are not always available to assist. The Chatbot eliminates this problem by automating some repetitive functionality to reduce the amount of time personnel spend troubleshooting as well as enabling more students to be assisted during odd hours. 
 The bot is built to run on Facebook Messenger and presently I am working on deploying it to a live server and configuring the web hooks. For now you can view, download and test the files in your own console. 
 
@@ -8,10 +8,6 @@ The bot is able to:
 * Resolve Login Issues
 * Enrol students in courses
 * Send walkthrough and other onboarding materials
-
-<p align="center">
-  <img src="./rasa-stack-mockup.gif">
-</p>
 
 
 ## Setup and installation
@@ -73,5 +69,5 @@ This will load the assistant in your terminal for you to chat.
 
 Check out the paper I wrote on this year-long project [here](www.paper.com):
 Check out my presentation on my project [here]
-Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here]
+Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here](https://aucampus-my.sharepoint.com/:v:/g/personal/akorsah_ashesi_edu_gh/EW8gFblP3a9Gq83WNxTVcKsBPy511SAGUheQXOmJbO6ZRQ?e=wJ4hSn)
 
