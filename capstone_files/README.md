@@ -18,11 +18,11 @@ Check out my presentation on my project [here](https://aucampus-my.sharepoint.co
 Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here](https://aucampus-my.sharepoint.com/:v:/g/personal/akorsah_ashesi_edu_gh/EW8gFblP3a9Gq83WNxTVcKsBPy511SAGUheQXOmJbO6ZRQ?e=wJ4hSn)
 
 ### Screenshots of the Bot in Action
-<img src="file-6.png">
-<img src="file-7.png">
-<img src="file3-2.png">
-<img src="file8-1.png">
-<img src="file12-1.png">
+<img src="file-6.png" height="300px">
+<img src="file-7.png" height="300px">
+<img src="file3-2.png" height="300px">
+<img src="file8-1.png" height="300px">
+<img src="file12-1.png" height="300px">
 
 ## How the Chatbot Works
 
