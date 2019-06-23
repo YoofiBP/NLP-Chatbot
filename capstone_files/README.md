@@ -1,4 +1,4 @@
-﻿# Chatbot for Chalkboard Education by Yoofi Brown-Pobee
+﻿# Automated Chatbot for Chalkboard Education using Natural Language Processing by Yoofi Brown-Pobee
 
 ## Purpose of the Chatbot
 I work for Chalkboard Education and we make learning materials accessiblle via SMS, USSD and the internet. With the internet we provide an online that allows schools to disseminate their digitised content to their students efficiently at low cost. Sometimes students have problems with their accounts (they have forgotten their login tokens or do not know how to navigate the platform) and personnel are not always available to assist. The Chatbot eliminates this problem by automating some repetitive functionality to reduce the amount of time personnel spend troubleshooting as well as enabling more students to be assisted during odd hours. 
