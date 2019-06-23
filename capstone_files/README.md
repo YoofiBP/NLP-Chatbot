@@ -19,6 +19,7 @@ Check out a video demo that was part of my presentation (in case you have diffic
 
 ### Screenshots of the Bot in Action
 <img src="file-6.png" height="450px"> <img src="file-7.png" height="450px"> <img src="file3-2.png" height="450px"> 
+
 <img src="file8-1.png" height="450px"> <img src="file12-1.png" height="450px">
 
 The bot is able to work through spelling mistakes, handle small talk and different variations of the same intent as well as perform admin back end functions
