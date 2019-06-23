@@ -18,7 +18,7 @@ Check out my presentation on my project [here](https://aucampus-my.sharepoint.co
 Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here](https://aucampus-my.sharepoint.com/:v:/g/personal/akorsah_ashesi_edu_gh/EW8gFblP3a9Gq83WNxTVcKsBPy511SAGUheQXOmJbO6ZRQ?e=wJ4hSn)
 
 ### Screenshots of the Bot in Action
-<img src="file-6.png" height="400px"><img src="file-7.png" height="400px"><img src="file3-2.png" height="400px"><img src="file8-1.png" height="400px"><img src="file12-1.png" height="400px">
+<img src="file-6.png" height="450px"><img src="file-7.png" height="450px"><img src="file3-2.png" height="450px"><img src="file8-1.png" height="450px"><img src="file12-1.png" height="450px">
 
 The bot is able to work through spelling mistakes, handle small talk and different variations of the same intent as well as perform admin back end functions
 
