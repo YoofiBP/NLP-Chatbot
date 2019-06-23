@@ -9,6 +9,10 @@ The bot is able to:
 * Enrol students in courses
 * Send walkthrough and other onboarding materials
 
+Check out the paper I wrote on this year-long project [here](https://drive.google.com/file/d/1SzDJjEasXYUsCR5AcsCCwd9Q_mZgOUVq/view?usp=sharing):
+Check out my presentation on my project [here](https://aucampus-my.sharepoint.com/:p:/g/personal/joseph_brown-pobee_alumni_ashesi_edu_gh/Eagz_EDlPwlHlhHfyH6uUvEBvzChr_FasMuS06L_YOXoBw?e=tSq565)
+Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here](https://aucampus-my.sharepoint.com/:v:/g/personal/akorsah_ashesi_edu_gh/EW8gFblP3a9Gq83WNxTVcKsBPy511SAGUheQXOmJbO6ZRQ?e=wJ4hSn)
+
 
 ## Setup and installation
 
@@ -66,8 +70,4 @@ This will start the server for emulating the custom action.
 4. Test the assistant by running:  
 ```make cmdline```  
 This will load the assistant in your terminal for you to chat.
-
-Check out the paper I wrote on this year-long project [here](https://drive.google.com/file/d/1SzDJjEasXYUsCR5AcsCCwd9Q_mZgOUVq/view?usp=sharing):
-Check out my presentation on my project [here](https://aucampus-my.sharepoint.com/:p:/g/personal/joseph_brown-pobee_alumni_ashesi_edu_gh/Eagz_EDlPwlHlhHfyH6uUvEBvzChr_FasMuS06L_YOXoBw?e=tSq565)
-Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here](https://aucampus-my.sharepoint.com/:v:/g/personal/akorsah_ashesi_edu_gh/EW8gFblP3a9Gq83WNxTVcKsBPy511SAGUheQXOmJbO6ZRQ?e=wJ4hSn)
 
