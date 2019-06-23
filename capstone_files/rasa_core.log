@@ -268,3 +268,249 @@ Sending message: My name is Sally, and I work for Chalkboard. I love listening t
 Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
 Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
 Sending message: Talk to you later!
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is zoe and your last name is tagboto
+Failed to run custom action 'action_write_log'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3243ee1d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_write_log'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: What's your full name
+Failed to run custom action 'action_write_log'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3243cc470>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_write_log'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_send_token'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3243eebe0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_send_token'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: Was that useful?
+Failed to run custom action 'action_write_log'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3243cc940>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_write_log'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: Looks like your issue is a bit more nuanced and I will forward it to Operations to get in touch with you shortly
+Failed to run custom action 'action_send_email'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3243eef28>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_send_email'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you zoe. How can I help?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/bs84ug
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: My pleasure.
+Sending message: Attachment: You will find a complete walkthrough of the application here: https://drive.google.com/file/d/1gZfHbhaDabDfCz3dXBMMoSEnW6L2aAgs/view?usp=sharing
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/bs84ug
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: What course is this
+Failed to run custom action 'action_enrol_student'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_enrol_student'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: What's your full name
+Sending message: What course is this
+Sending message: literature in french ii zoe tagboto
+Sending message: What's your full name
+Sending message: What course is this
+Sending message: Looks like you are already registered for this course
+Sending message: literature in french ii zoe tagboto
+Sending message: I was made by Yoofi Brown-Pobee so I guess he is my boss
+Sending message: Why thank you very much! I'm sure you look great too!
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/bs84ug
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/bs84ug
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sa4ugo
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Sorry bob brown you are not in our system
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sx0yla
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sx0yla
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sa4ugo
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: My pleasure.
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sa4ugo
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: Looks like your issue is a bit more nuanced and I will forward it to Operations to get in touch with you shortly
+Sending message: Nice to you meet you ayorkor. How can I help?
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: Nice to you meet you ayorkor. How can I help?
+Sending message: I was made by Yoofi Brown-Pobee so I guess he is my boss
+Sending message: Nice to you meet you ayorkor. How can I help?
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is zoe and your last name is tagboto
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Sending message: Hey there! Tell me your name.
+Sending message: Hey there! Tell me your name.
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is patrick and your last name is awuah
+Sending message: Hey there! Tell me your name.
+Sending message: Hey there! Tell me your name.
+Encountered an exception while running action 'utter_name'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is zoe and your last name is tagboto
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/bs84ug
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: My pleasure.
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you zoe. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you zoe. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you zoe. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is kwasi and your last name is korboe
+Sending message: Nice to you meet you kwasi. How can I help?
+Sending message: Attachment: You will find a complete walkthrough of the application here: https://drive.google.com/file/d/1gZfHbhaDabDfCz3dXBMMoSEnW6L2aAgs/view?usp=sharing
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: What's your full name
+Sending message: What course is this
+Failed to run custom action 'action_enrol_student'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_enrol_student'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Sending message: I was born on 3rd May 1996. Same as my creator!
+Sending message: Nice to you meet you patrick. How can I help?
+Sending message: I'm about two months old you know!
+Sending message: My name is Sally, and I work for Chalkboard. I love listening to your problems and sending emails!
+Sending message: Nice to you meet you patrick. How can I help?
+Sending message: Talk to you later!
+Sending message: Talk to you later!
+Sending message: Thanks! Be sure to let my creator know!
+Sending message: What's your full name
+Sending message: What's your full name
+Sending message: I was born on 3rd May 1996. Same as my creator!
+Sending message: Nice to you meet you patrick. How can I help?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/ashesi6
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sa4ugo
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: What's your full name
+Sending message: What's your full name
+Sending message: What course is this
+Sending message: What's your full name
+Sending message: Your personal login link is: https:/chalkedu.co/#/login/sa4ugo
+The characters after the last slash make up your token
+Keep your link safe in your bookmarks!
+Sending message: Was that useful?
+Sending message: Looks like your issue is a bit more nuanced and I will forward it to Operations to get in touch with you shortly
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you ayorkor. How can I help?
+Sending message: Attachment: You will find a complete walkthrough of the application here: https://drive.google.com/file/d/1gZfHbhaDabDfCz3dXBMMoSEnW6L2aAgs/view?usp=sharing
+Sending message: Here are the courses available at Chalkboard right now:
+Sending message: JEN 123 - ENGLISH WITH ELEMENTS OF LITERATURE
+Sending message: JFL 127 - LITERATURE IN FRENCH II
+Sending message: JES 128 - ENVIRONMENTAL AND SOCIAL STUDIES I
+Sending message: JES 322 - Data Structures 
+Sending message: What's your full name
+Sending message: What course is this
+Sending message: literature in french ayorkor korsah
+Sending message: I was made by Yoofi Brown-Pobee so I guess he is my boss
+Sending message: Attachment: You will find a complete walkthrough of the application here: https://drive.google.com/file/d/1gZfHbhaDabDfCz3dXBMMoSEnW6L2aAgs/view?usp=sharing
+Sending message: Attachment: You will find a complete walkthrough of the application here: https://drive.google.com/file/d/1gZfHbhaDabDfCz3dXBMMoSEnW6L2aAgs/view?usp=sharing
+Sending message: Nice to you meet you ayorkor. How can I help?
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is kwasi and your last name is korboe
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you kwasi. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you kwasi. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you kwasi. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is dennis and your last name is owusu
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you dennis. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Nice to you meet you dennis. How can I help?
+Sending message: Hey there! Tell me your name.
+Sending message: Your first name is kwasi and your last name is korboe
+Sending message: What's your full name
+Sending message: Sorry kwasi korboe you are not in our system
+Sending message: Was that useful?
+Sending message: My pleasure.
+Sending message: Thanks! Be sure to let my creator know!
+Sending message: Why thank you very much! I'm sure you look great too!
+Sending message: Talk to you later!
