@@ -99,7 +99,7 @@ pipeline: spacy_sklearn
 - **endpoints.yml** file contains the webhook configuration for custom action.  
 - **policies.yml** file contains the configuration of the training policies for Rasa Core model.
 
-## How to use this starter-pack?
+## How to use this?
 - NOTE: If running on Windows, you will either have to [install make](http://gnuwin32.sourceforge.net/packages/make.htm) or copy the following commands from the [Makefile](https://github.com/RasaHQ/starter-pack-rasa-stack/blob/master/Makefile)
 1. You can train the Rasa NLU model by running:  
 ```make train-nlu```  
