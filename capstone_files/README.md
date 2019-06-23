@@ -17,6 +17,8 @@ Check out my presentation on my project [here](https://aucampus-my.sharepoint.co
 
 Check out a video demo that was part of my presentation (in case you have difficulty downloading the files to test) [here](https://aucampus-my.sharepoint.com/:v:/g/personal/akorsah_ashesi_edu_gh/EW8gFblP3a9Gq83WNxTVcKsBPy511SAGUheQXOmJbO6ZRQ?e=wJ4hSn)
 
+Chatbot Architecture
+<img src="NLU Interpreter_ Responsible for understanding user input by determining intent and extracting entities.png">
 
 ## Setup and installation
 
