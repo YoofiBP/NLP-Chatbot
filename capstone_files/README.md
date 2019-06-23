@@ -5,6 +5,8 @@ I work for Chalkboard Education and we make learning materials accessiblle via S
 The bot is built to run on Facebook Messenger and presently I am working on deploying it to a live server and configuring the web hooks. For now you can view, download and test the files in your own console. 
 
 The bot is able to:
+* Understand user input expressed in a variety of ways to determine the ultimate intent
+* Collect and learn from user inputs to improve intent identification
 * Resolve Login Issues
 * Enrol students in courses
 * Send walkthrough and other onboarding materials
